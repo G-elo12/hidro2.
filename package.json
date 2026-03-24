@@ -1,0 +1,19 @@
+{
+  "name": "servidorio",
+  "version": "1.0.0",
+  "description": "WebSocket server for Arduino/ESP32 IoT gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "mongoose": "^9.3.2",
+    "ws": "^8.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
