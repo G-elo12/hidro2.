@@ -12,7 +12,7 @@ const mongoose  = require('mongoose');
 // ── Configuración ──────────────────────────────────────────
 const PORT     = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO_URI ||
-  'mongodb://mongo:LHGResNzQOUOUoeAHZbTypsOlNLouSPH@crossover.proxy.rlwy.net:41989';
+  'mongodb+srv://utau242020_db_user:KG2aWhnt0MiErlPX@cluster0.qjywjn3.mongodb.net/?appName=Cluster0';
 
 // ── Mongoose — Esquemas ────────────────────────────────────
 
